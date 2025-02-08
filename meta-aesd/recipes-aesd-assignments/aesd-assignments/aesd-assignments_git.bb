@@ -23,7 +23,7 @@ FILES:${PN} += "${bindir}/aesdsocket"
 # (and remove comment)
 TARGET_LDFLAGS += "-pthread -lrt"
 RDEPENDS_${PN} += "libgcc"
-CROSS_COMPILE = "aarch64-none-linux-gnu-"
+
 
 #Start Script receipe
 
