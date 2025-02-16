@@ -22,6 +22,7 @@ FILES:${PN} += "${bindir}/aesdsocket"
 # TODO: customize these as necessary for any libraries you need for your application
 # (and remove comment)
 TARGET_LDFLAGS += "-pthread -lrt"
+CC="aarch64-none-linux-gnu-gcc"
 RDEPENDS_${PN} += "libgcc"
 
 
